@@ -1,6 +1,6 @@
 # customTaxonomy-rs
 
-基于 Rust 的 NCBI 分类学数据库自定义过滤与修改工具。<br>
+基于 Rust 的 NCBI taxonomy 自定义过滤与修改工具。<br>
 从原始 `nodes.dmp` / `names.dmp` 中筛选指定 taxid 的完整 lineage，并支持通过 `needChange.dmp` 插入新节点或修改已有节点的父节点和分类等级。
 
 ## 功能
