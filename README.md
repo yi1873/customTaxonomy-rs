@@ -69,8 +69,8 @@ taxid  |  name  |  unique_name  |  name_type  |  taxid  |  parent  |  rank
 - 修改已有节点 `620`（Shigella），将其父节点改为 `1000000001`，等级为 `genus`
 
 **后续使用**
-- kraken2 可直接使用；
-- 可根据customrank抽提有效reads作基因组覆盖图；
-- 示例仅用于解决kraken2中大肠/志贺菌的reads归类于family的问题；
-- 其他自定义taxonomy可根据示例进行拓展；
+- `kraken2` 可直接使用；
+- 可根据`customrank`抽提有效reads作基因组覆盖图；
+- 示例仅用于解决`kraken2`中`大肠/志贺菌`的`reads`归类于`family`的问题；
+- 其他`自定义taxonomy`可根据示例进行拓展；
 
