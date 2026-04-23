@@ -17,7 +17,7 @@ impl CustomChange {
             return None;
         }
         
-        // 按制表符分割字段（像Python一样）
+        // 按制表符分割字段
         let tab_fields: Vec<String> = line.split('\t').map(|s| s.to_string()).collect();
         if tab_fields.len() != 13 {
             eprintln!("警告: 字段数 {} != 13，跳过: {}", tab_fields.len(), line);
