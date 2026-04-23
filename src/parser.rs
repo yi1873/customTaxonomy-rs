@@ -71,7 +71,7 @@ pub fn parse_nodes(path: &str) -> (Vec<String>, HashMap<u64, u64>, HashMap<u64, 
         
         parent_map.insert(taxid, parent);
         
-        // 存储前5个字段（像Python的nodesinfo）
+        // 存储前5个字段
         let first_five: Vec<String> = fields[..5.min(fields.len())]
             .iter()
             .map(|s| s.to_string())
